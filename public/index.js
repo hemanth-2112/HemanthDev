@@ -113,7 +113,7 @@ form.addEventListener('submit', async (event) => {
     // Send form data to server
 
     try {
-        await fetch('http://localhost:3000/api/form', {
+        await fetch('https://hemanthdev.onrender.com/api/form', {
             method: 'POST',
             body: JSON.stringify(formData),
             headers: {
